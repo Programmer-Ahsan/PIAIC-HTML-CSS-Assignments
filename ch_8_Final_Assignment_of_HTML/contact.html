@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML final assignment</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="header">
+                <img id="logo" src="../img/logo.png">
+                <ul id="nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="contact.html">Contact</a></li>  
+                </ul>
+    </div>
+    <hr>
+    <div id="content"> 
+        <h1> User Information and Order Placing</h1>
+       <form>
+           <fieldset>
+            <legend>User Information</legend>
+            <p>Name :<input type="text" name="name" /></p> 
+               <P>Email :<input type="email" name="email"/></P>
+            </fieldset>
+           <fieldset>
+               <legend>Order Information</legend>
+               <p>Are you first time here?
+                   <br>
+                   <label for="Yes">Yes</label>
+                   <input type="radio" name="choice" value="Yes">
+                    
+                    <label for="no">No</label>
+                    <input type="radio" name="choice" value="no"> </p> 
+                    
+                    <p> Are you vegetirian or non-vegetirian</p>
+                    <label for="vegetarian">Vegetarian</label>
+                    <input type="checkbox" name="taste" value="vegetarian" />
+                    <br>
+                    <label for="vegetarian">Non-Vegetarian</label>
+                    <input type="checkbox" name="taste" value="non-vegetarian" />
+                    <br>
+                    <label for="both">Both</label>
+                    <input type="checkbox" name="taste" value="both"/>
+
+                    <p> Are you vegetirian or non-vegetirian</p>
+                    <label for="vegetarian">Vegetarian</label>
+                    <input type="checkbox" name="taste" value="vegetarian" />
+                    <br>
+                    <label for="vegetarian">Non-Vegetarian</label>
+                    <input type="checkbox" name="taste" value="non-vegetarian" />
+                    <br>
+                    <label for="both">Both</label>
+                    <input type="checkbox" name="taste" value="both"/>
+
+                    <p>Select Your City</p>
+                     <select>
+                         <option>Karachi
+                         </option>
+                         <option>Islamabad</option>
+                         <option>
+                             Lahore
+                         </option>
+                        </select>
+
+                        <p> What do you want to Order</p>
+                        <label for="pizza">Pizza</label>
+                        <input type="checkbox" name="order" value="pizza" />
+                        <br>
+                    
+                        <label for="zinger-burger">Zinger Burger</label>
+                        <input type="checkbox" name="order" value="zinger-burger" />
+                        <br>
+                    
+                        <label for="chicken-rolls">Chicken Roll</label>
+                        <input type="checkbox" name="order" value="chicken-rolls" />
+                        <br>
+
+                    <button type="submit">Order</button>
+           </fieldset>
+        
+        </form>
+    </div>
+    <div id="footer">
+        <p>copyright &copy; 2021. All rights reserved </p>
+    </div>
+</body>
+</html>

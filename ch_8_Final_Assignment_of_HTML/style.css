@@ -1,0 +1,46 @@
+body{
+    background-color:lightsalmon;
+    
+}
+#header{
+    background-color:firebrick;
+}
+#nav{
+    float: right;
+    margin-right: 20px ;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    list-style-type: none;
+}
+a{
+    text-decoration-line: none;
+    color:white;
+    font-family:serif;
+    font-size: 30px;
+}
+a:hover{
+    background-color:lightsalmon;
+   padding: 5px;
+   font-size: 40px;
+}
+#footer{
+    background-color:firebrick;
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    font-family:monospace;
+}
+.MenuImg{
+    float:right;
+    width:250px;
+     height:200px; 
+}
+iframe{
+    width: 400px;
+    height: 200px;
+}
